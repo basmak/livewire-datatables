@@ -1010,7 +1010,7 @@ class LivewireDatatable extends Component
     {
         unset($this->activeSelectFilters[$column][$key]);
         $this->visibleSelected = $this->selected;
-        if (count($this->activeSelectFilters[$column]) < 1) {
+        if (isset($this->activeSelectFilters[$column]) && count($this->activeSelectFilters[$column]) < 1) {
             unset($this->activeSelectFilters[$column]);
         }
         $this->setPage(1);

@@ -503,7 +503,7 @@ class LivewireDatatable extends Component
             return;
         }
 
-        $this->perPage = session()->get($this->sessionStorageKey() . $this->name . '_perpage', $this->perPage);
+        $this->perPage = session()->get($this->sessionStorageKey() . '_perpage', $this->perPage);
     }
 
     public function setSessionStoredSort(): void
@@ -546,7 +546,7 @@ class LivewireDatatable extends Component
 
         $hidden = collect($this->columns)->filter->hidden->keys()->toArray();
 
-        session()->put([$this->sessionStorageKey() . $this->name . '_hidden_columns' => $hidden]);
+        session()->put([$this->sessionStorageKey() . '_hidden_columns' => $hidden]);
     }
 
     public function initialiseSearch(): void

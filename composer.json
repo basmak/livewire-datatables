@@ -1,5 +1,5 @@
 {
-    "name": "arm092/livewire-datatables",
+    "name": "basmak/livewire-datatables",
     "description": "Advanced datatables using Laravel, Livewire, Tailwind CSS and Alpine JS",
     "keywords": [
         "php",
@@ -8,7 +8,7 @@
         "datatables",
         "tall"
     ],
-    "homepage": "https://github.com/arm092/livewire-datatables",
+    "homepage": "https://github.com/basmak/livewire-datatables",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -48,12 +48,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Arm092\\LivewireDatatables\\": "src"
+            "Basmak\\LivewireDatatables\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Arm092\\LivewireDatatables\\Tests\\": "tests"
+            "Basmak\\LivewireDatatables\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -66,10 +66,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Arm092\\LivewireDatatables\\LivewireDatatablesServiceProvider"
+                "Basmak\\LivewireDatatables\\LivewireDatatablesServiceProvider"
             ],
             "aliases": {
-                "LivewireDatatables": "Arm092\\LivewireDatatables\\LivewireDatatablesFacade"
+                "LivewireDatatables": "Basmak\\LivewireDatatables\\LivewireDatatablesFacade"
             }
         }
     },

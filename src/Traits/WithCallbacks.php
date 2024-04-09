@@ -1,6 +1,6 @@
 <?php
 
-namespace Arm092\LivewireDatatables\Traits;
+namespace Basmak\LivewireDatatables\Traits;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;

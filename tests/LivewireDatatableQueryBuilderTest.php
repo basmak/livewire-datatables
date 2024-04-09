@@ -1,12 +1,12 @@
 <?php
 
-namespace Arm092\LivewireDatatables\Tests;
+namespace Basmak\LivewireDatatables\Tests;
 
-use Arm092\LivewireDatatables\Livewire\LivewireDatatable;
-use Arm092\LivewireDatatables\Tests\Models\DummyBelongsToManyModel;
-use Arm092\LivewireDatatables\Tests\Models\DummyHasManyModel;
-use Arm092\LivewireDatatables\Tests\Models\DummyHasOneModel;
-use Arm092\LivewireDatatables\Tests\Models\DummyModel;
+use Basmak\LivewireDatatables\Livewire\LivewireDatatable;
+use Basmak\LivewireDatatables\Tests\Models\DummyBelongsToManyModel;
+use Basmak\LivewireDatatables\Tests\Models\DummyHasManyModel;
+use Basmak\LivewireDatatables\Tests\Models\DummyHasOneModel;
+use Basmak\LivewireDatatables\Tests\Models\DummyModel;
 
 class LivewireDatatableQueryBuilderTest extends TestCase
 {

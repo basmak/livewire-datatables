@@ -1,6 +1,6 @@
 <?php
 
-namespace Arm092\LivewireDatatables\Livewire;
+namespace Basmak\LivewireDatatables\Livewire;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Arr;

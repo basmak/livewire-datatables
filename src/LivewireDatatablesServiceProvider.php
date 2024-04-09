@@ -1,6 +1,6 @@
 <?php
 
-namespace Arm092\LivewireDatatables;
+namespace Basmak\LivewireDatatables;
 
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Relations\Relation;
@@ -11,11 +11,11 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 use Livewire\Livewire;
-use Arm092\LivewireDatatables\Commands\DatatableMakeCommand;
-use Arm092\LivewireDatatables\Commands\MakeDatatableCommand;
-use Arm092\LivewireDatatables\Http\Controllers\FileExportController;
-use Arm092\LivewireDatatables\Livewire\ComplexQuery;
-use Arm092\LivewireDatatables\Livewire\LivewireDatatable;
+use Basmak\LivewireDatatables\Commands\DatatableMakeCommand;
+use Basmak\LivewireDatatables\Commands\MakeDatatableCommand;
+use Basmak\LivewireDatatables\Http\Controllers\FileExportController;
+use Basmak\LivewireDatatables\Livewire\ComplexQuery;
+use Basmak\LivewireDatatables\Livewire\LivewireDatatable;
 
 class LivewireDatatablesServiceProvider extends ServiceProvider
 {

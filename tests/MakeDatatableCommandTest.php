@@ -1,11 +1,11 @@
 <?php
 
-namespace Arm092\LivewireDatatables\Tests;
+namespace Basmak\LivewireDatatables\Tests;
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
-use Arm092\LivewireDatatables\Commands\MakeDatatableCommand;
-use Arm092\LivewireDatatables\Tests\LivewireTestCase as TestCase;
+use Basmak\LivewireDatatables\Commands\MakeDatatableCommand;
+use Basmak\LivewireDatatables\Tests\LivewireTestCase as TestCase;
 
 class MakeDatatableCommandTest extends TestCase
 {

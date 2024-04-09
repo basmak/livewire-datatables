@@ -1,10 +1,10 @@
 <?php
 
-namespace Arm092\LivewireDatatables\Tests;
+namespace Basmak\LivewireDatatables\Tests;
 
-use Arm092\LivewireDatatables\Column;
-use Arm092\LivewireDatatables\ColumnSet;
-use Arm092\LivewireDatatables\Tests\Models\DummyModel;
+use Basmak\LivewireDatatables\Column;
+use Basmak\LivewireDatatables\ColumnSet;
+use Basmak\LivewireDatatables\Tests\Models\DummyModel;
 
 class ColumnSetTest extends TestCase
 {

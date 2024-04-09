@@ -1,10 +1,10 @@
 <?php
 
-namespace Arm092\LivewireDatatables\Tests;
+namespace Basmak\LivewireDatatables\Tests;
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
-use Arm092\LivewireDatatables\Tests\TestCase as BaseTestCase;
+use Basmak\LivewireDatatables\Tests\TestCase as BaseTestCase;
 
 class LivewireTestCase extends BaseTestCase
 {

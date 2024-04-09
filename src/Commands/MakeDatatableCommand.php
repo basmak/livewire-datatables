@@ -1,6 +1,6 @@
 <?php
 
-namespace Arm092\LivewireDatatables\Commands;
+namespace Basmak\LivewireDatatables\Commands;
 
 use Illuminate\Support\Facades\File;
 use Livewire\Features\SupportConsoleCommands\Commands\FileManipulationCommand;

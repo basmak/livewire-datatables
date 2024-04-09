@@ -1,6 +1,6 @@
 <?php
 
-namespace Arm092\LivewireDatatables\Exports;
+namespace Basmak\LivewireDatatables\Exports;
 
 use Maatwebsite\Excel\Concerns\Exportable;
 use Maatwebsite\Excel\Concerns\FromCollection;

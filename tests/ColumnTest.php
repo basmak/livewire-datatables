@@ -1,10 +1,10 @@
 <?php
 
-namespace Arm092\LivewireDatatables\Tests;
+namespace Basmak\LivewireDatatables\Tests;
 
 use Illuminate\Support\Facades\DB;
-use Arm092\LivewireDatatables\Column;
-use Arm092\LivewireDatatables\DateColumn;
+use Basmak\LivewireDatatables\Column;
+use Basmak\LivewireDatatables\DateColumn;
 
 class ColumnTest extends TestCase
 {

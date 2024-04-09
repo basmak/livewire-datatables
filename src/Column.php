@@ -1,13 +1,13 @@
 <?php
 
-namespace Arm092\LivewireDatatables;
+namespace Basmak\LivewireDatatables;
 
 use Closure;
 use Illuminate\Contracts\Database\Query\Expression;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use Arm092\LivewireDatatables\Livewire\LivewireDatatable;
+use Basmak\LivewireDatatables\Livewire\LivewireDatatable;
 
 class Column implements \ArrayAccess
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Arm092\LivewireDatatables;
+namespace Basmak\LivewireDatatables;
 
 /**
  * Use this column to simply display a custom header ("label") and a fixed content ("content").

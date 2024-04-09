@@ -1,13 +1,13 @@
 <?php
 
-namespace Arm092\LivewireDatatables\Livewire;
+namespace Basmak\LivewireDatatables\Livewire;
 
-use Arm092\LivewireDatatables\Column;
-use Arm092\LivewireDatatables\ColumnSet;
-use Arm092\LivewireDatatables\Exports\DatatableExport;
-use Arm092\LivewireDatatables\Traits\WithCallbacks;
-use Arm092\LivewireDatatables\Traits\WithPresetDateFilters;
-use Arm092\LivewireDatatables\Traits\WithPresetTimeFilters;
+use Basmak\LivewireDatatables\Column;
+use Basmak\LivewireDatatables\ColumnSet;
+use Basmak\LivewireDatatables\Exports\DatatableExport;
+use Basmak\LivewireDatatables\Traits\WithCallbacks;
+use Basmak\LivewireDatatables\Traits\WithPresetDateFilters;
+use Basmak\LivewireDatatables\Traits\WithPresetTimeFilters;
 use Exception;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Arm092\LivewireDatatables\Traits;
+namespace Basmak\LivewireDatatables\Traits;
 
-use Arm092\LivewireDatatables\Action;
+use Basmak\LivewireDatatables\Action;
 
 /**
  * Use this trait to enable the functionality to pin specific records to the
@@ -14,7 +14,7 @@ use Arm092\LivewireDatatables\Action;
  * 2) have session storage activated (it is by default)
  * 3) to enable the mass bulk action dropdown as described in:
  *
- * @link https://github.com/arm092/livewire-datatables#mass-bulk-action
+ * @link https://github.com/Basmak/livewire-datatables#mass-bulk-action
  */
 trait CanPinRecords
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Arm092\LivewireDatatables;
+namespace Basmak\LivewireDatatables;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;

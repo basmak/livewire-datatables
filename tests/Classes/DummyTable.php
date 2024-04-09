@@ -1,14 +1,14 @@
 <?php
 
-namespace Arm092\LivewireDatatables\Tests\Classes;
+namespace Basmak\LivewireDatatables\Tests\Classes;
 
 use Illuminate\Database\Eloquent\Model;
-use Arm092\LivewireDatatables\BooleanColumn;
-use Arm092\LivewireDatatables\Column;
-use Arm092\LivewireDatatables\DateColumn;
-use Arm092\LivewireDatatables\Livewire\LivewireDatatable;
-use Arm092\LivewireDatatables\NumberColumn;
-use Arm092\LivewireDatatables\Tests\Models\DummyModel;
+use Basmak\LivewireDatatables\BooleanColumn;
+use Basmak\LivewireDatatables\Column;
+use Basmak\LivewireDatatables\DateColumn;
+use Basmak\LivewireDatatables\Livewire\LivewireDatatable;
+use Basmak\LivewireDatatables\NumberColumn;
+use Basmak\LivewireDatatables\Tests\Models\DummyModel;
 
 class DummyTable extends LivewireDatatable
 {

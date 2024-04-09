@@ -1,10 +1,10 @@
 <?php
 
 use Faker\Generator;
-use Arm092\LivewireDatatables\Tests\Models\DummyBelongsToManyModel;
-use Arm092\LivewireDatatables\Tests\Models\DummyHasManyModel;
-use Arm092\LivewireDatatables\Tests\Models\DummyHasOneModel;
-use Arm092\LivewireDatatables\Tests\Models\DummyModel;
+use Basmak\LivewireDatatables\Tests\Models\DummyBelongsToManyModel;
+use Basmak\LivewireDatatables\Tests\Models\DummyHasManyModel;
+use Basmak\LivewireDatatables\Tests\Models\DummyHasOneModel;
+use Basmak\LivewireDatatables\Tests\Models\DummyModel;
 
 /* @var Illuminate\Database\Eloquent\Factory $factory */
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Arm092\LivewireDatatables;
+namespace Basmak\LivewireDatatables;
 
 class NumberColumn extends Column
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Arm092\LivewireDatatables\Commands;
+namespace Basmak\LivewireDatatables\Commands;
 
 class DatatableMakeCommand extends MakeDatatableCommand
 {

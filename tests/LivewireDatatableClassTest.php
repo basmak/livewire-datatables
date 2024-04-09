@@ -1,10 +1,10 @@
 <?php
 
-namespace Arm092\LivewireDatatables\Tests;
+namespace Basmak\LivewireDatatables\Tests;
 
 use Livewire\Livewire;
-use Arm092\LivewireDatatables\Tests\classes\DummyTable;
-use Arm092\LivewireDatatables\Tests\Models\DummyModel;
+use Basmak\LivewireDatatables\Tests\classes\DummyTable;
+use Basmak\LivewireDatatables\Tests\Models\DummyModel;
 
 class LivewireDatatableClassTest extends TestCase
 {
